@@ -1,6 +1,6 @@
 services:
   api:
-    build: ./be-04
+    build: ./be-05
     ports: ["3000:3000"]
     environment:
       DATABASE_URL: postgres://postgres:dev@db:5432/tasks
